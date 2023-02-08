@@ -27,7 +27,9 @@ body {
   /* border: 2px solid yellow; */
   font-family: "Josefin Sans", sans-serif;
   display: block;
-  width: 50%;
+  width: 55%;
+  position: relative;
+  right: auto;
   margin: 25px auto;
   background-color: rgba(0, 0, 0, 0.614);
   border-radius: 50px;
@@ -83,25 +85,39 @@ body {
   font-family: "Itim", cursive;
 }
 
-.gender{
+.gender {
   display: inline-block;
   /* border: 2px solid deeppink; */
   margin: 25px;
 }
-.gender input{
+.gender input {
   font-size: 50px;
 }
-.inpbox{
+.inpbox {
   /* border: 2px solid indianred; */
   display: block;
   margin: 20px;
   font-size: large;
 }
-#lastinp{
+#lastinp {
   margin-bottom: 0px;
 }
-.inpbox input{
-  font-size: 17px;
+.inpbox input {
+  font-size: 25px;
   text-align: center;
-  
+  border-radius: 12px;
+  font-family: "Itim", cursive;
+}
+
+#submitbtn{
+  padding: 5px 10px;
+  color: white;
+  margin: 14px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  font-family: "Itim", cursive;
+  font-size: large;
+  width: 505px;
+  border-color: #ffff;
 }
